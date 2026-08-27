@@ -186,3 +186,41 @@ module.exports = {
   runTask13,
   runTask14
 };
+
+/*
+===================================================================
+ EXPECTED OUTPUT:
+ -------------------------------------------------------------------
+ Task Logger Started
+
+ === Node.js Task Logger Execution Suite (10 Tasks) ===
+ --- Current Timestamp: 27/8/2026, 12:08:05 pm ---
+
+ --- Task 2: Architecture & Non-Blocking ---
+ [Task 2 Synchronous] This message prints immediately after fs.readFile call.
+
+ --- Task 4: Date Timestamp ---
+ [Task 4] Current Timestamp from REPL snippet: [27/8/2026, 12:08:05 pm]
+
+ --- Task 7: Debugging ---
+ [Task 7] Debugger inspection & bug-fix confirmed via node --inspect.
+
+ --- Task 10: Promise Demo ---
+
+ --- Task 11: Async/Await & Catch Demo ---
+
+ --- Task 13: Event Loop Execution Order ---
+ [Task 13] Synchronous message
+
+ --- Task 14: EventEmitter Demo ---
+ [Task 13] Promise message (Microtask)
+ [Task 13] setTimeout message (Macrotask)
+ [Task 11 Catch Block Demo - Handled Error]: ENOENT: no such file or directory, open 'invalid_directory_path/tasks.txt'
+ [Task 10] Promise resolved successfully.
+ [Task 14 EventEmitter] New task added: Complete EventEmitter task
+ [Task 11 Async/Await] Task saved successfully: "Complete EventEmitter task"
+ [Task 2] File contents logged asynchronously:
+ [26/8/2026, 6:00:00 pm] Initial sample task: Setup Node environment
+ [26/8/2026, 6:15:00 pm] Initial sample task: Review V8 and libuv docs
+===================================================================
+*/

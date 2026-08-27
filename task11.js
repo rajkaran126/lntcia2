@@ -31,3 +31,14 @@ module.exports = {
   saveTaskAsync,
   runTask11
 };
+
+/*
+===================================================================
+ EXPECTED OUTPUT:
+ -------------------------------------------------------------------
+ [Task 11] Running async/await success execution...
+ [Task 11 Async/Await] Successfully saved task: "Learn Async/Await and Try/Catch"
+ [Task 11] Triggering catch block with non-existent path...
+ [Task 11 Handled Error in Catch]: ENOENT: no such file or directory, open 'invalid_folder_path/tasks.txt'
+===================================================================
+*/

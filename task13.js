@@ -18,3 +18,13 @@ if (require.main === module) {
 }
 
 module.exports = runTask13;
+
+/*
+===================================================================
+ EXPECTED OUTPUT:
+ -------------------------------------------------------------------
+ [Task 13 Log 1] Synchronous Step 1
+ [Task 13 Log 2] Promise Microtask Step 2
+ [Task 13 Log 3] SetTimeout Macrotask Step 3
+===================================================================
+*/

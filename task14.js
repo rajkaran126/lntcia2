@@ -32,3 +32,12 @@ module.exports = {
   saveTaskAsyncWithEmitter,
   runTask14
 };
+
+/*
+===================================================================
+ EXPECTED OUTPUT:
+ -------------------------------------------------------------------
+ [Task 14] Saving task and firing taskAdded event...
+ [Task 14 EventEmitter Listener] New task added: Demonstrate EventEmitter pattern
+===================================================================
+*/

@@ -31,3 +31,16 @@ if (require.main === module) {
 }
 
 module.exports = runTask9;
+
+/*
+===================================================================
+ EXPECTED OUTPUT:
+ -------------------------------------------------------------------
+ [Task 9] Timers initialized...
+ [Task 9 Interval] Number of tasks logged so far: 2
+ [Task 9 Timer] Reminder: review your tasks
+ [Task 9 Interval] Number of tasks logged so far: 2
+ [Task 9 Interval] Number of tasks logged so far: 2
+ [Task 9 Timer] Timer interval cleared with clearInterval.
+===================================================================
+*/

@@ -20,3 +20,15 @@ if (require.main === module) {
 }
 
 module.exports = runTask2;
+
+/*
+===================================================================
+ EXPECTED OUTPUT:
+ -------------------------------------------------------------------
+ [Task 2] Starting fs.readFile demonstration...
+ [Task 2 Synchronous] This message prints immediately after fs.readFile call.
+ [Task 2 Callback] File contents logged asynchronously:
+ [26/8/2026, 6:00:00 pm] Initial sample task: Setup Node environment
+ [26/8/2026, 6:15:00 pm] Initial sample task: Review V8 and libuv docs
+===================================================================
+*/

@@ -38,3 +38,13 @@ if (require.main === module) {
 }
 
 module.exports = runTask5;
+
+/*
+===================================================================
+ EXPECTED OUTPUT:
+ -------------------------------------------------------------------
+ [Task 5] Command Line Task Argument: "Sample CLI Task"
+ Save this task? (y/n): y
+ [Task 5] Task "Sample CLI Task" saved.
+===================================================================
+*/

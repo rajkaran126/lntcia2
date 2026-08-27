@@ -9,3 +9,12 @@ if (require.main === module) {
 }
 
 module.exports = runTask7;
+
+/*
+===================================================================
+ EXPECTED OUTPUT:
+ -------------------------------------------------------------------
+ [Task 7] Debugger inspection completed.
+ [Task 7] Bug fixed: ReferenceError resolved after node --inspect check.
+===================================================================
+*/
